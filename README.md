@@ -34,7 +34,7 @@ Computer作业项目仓库
 	}
 ## 实验结果
  在main方法中按照实验流程完成操作，运行结果达到预期
-![RUNOOB 图标](https://mail.qq.com/cgi-bin/frame_html?sid=T6KYHiRdEAmMIVQL&r=cda528a92a3fbfb7198872db9b4dbb03")
+![RUNOOB 图标](https://p.qlogo.cn/qqmail_head/PiajxSqBRaELcQnCatfx2OLUmQn1DXyeeL660ELkYmwsd2GObULaOIpJNT7Nv8A1Ghzictg1KPUdI/0)
 ## 实验感想
  通过本次实验，我学会了Java类的创建、了解了类的属性和方法，基本了解了构造方法的形式和作用、学会了三种权限修饰符的使用和区别
  
