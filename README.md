@@ -2,22 +2,22 @@
 Computer作业项目仓库
 # 阅读程序
 ## 一、实验目的
- 1.学会使用Java编写简单的类，理解类的属性和方法。
- 2.了解java构造方法的形式
- 3.学会使用Java的权限修饰符，掌握public、private、protected的用法， 并在不同的包下实验
- 4.学会在方法中适当加入逻辑判断
+ 1. 学会使用Java编写简单的类，理解类的属性和方法。
+ 2. 了解java构造方法的形式
+ 3. 学会使用Java的权限修饰符，掌握public、private、protected的用法， 并在不同的包下实验
+ 4. 学会在方法中适当加入逻辑判断
 ## 二、实验过程
- 1.创建CPU类，并添加int speed属性，描述了cpu的速度，并添加对应的get/set方法，创建一个无参构造函数和全参构造，在全参构造中初始化speed属性
- 2.创建HardDisk类，并添加int amount属性，描述了硬盘的容量，其他流程同CPU
- 3.创建PC类，并将CPU和HardDisk作为PC类的属性，描述了一台电脑的CPU和硬盘，分别为两个属性实现get/set方法，并在pc对象中提供show方法，打印计算机的信息
- 4.在show方法中进行一些空值判断，避免NPE
- 5.在Test.main方法中实例化CPU和HardDisk，将cpu的速度设置为2200，硬盘的容量设置为200
- 6.实例化PC类，调用setCPU和setHardDisk，将CPU和硬盘对象设置进去
- 7.调用pc.show(),打印计算机的信息
+ 1. 创建CPU类，并添加int speed属性，描述了cpu的速度，并添加对应的get/set方法，创建一个无参构造函数和全参构造，在全参构造中初始化speed属性
+ 2. 创建HardDisk类，并添加int amount属性，描述了硬盘的容量，其他流程同CPU
+ 3. 创建PC类，并将CPU和HardDisk作为PC类的属性，描述了一台电脑的CPU和硬盘，分别为两个属性实现get/set方法，并在pc对象中提供show方法，打印计算机的信息
+ 4. 在show方法中进行一些空值判断，避免NPE
+ 5. 在Test.main方法中实例化CPU和HardDisk，将cpu的速度设置为2200，硬盘的容量设置为200
+ 6. 实例化PC类，调用setCPU和setHardDisk，将CPU和硬盘对象设置进去
+ 7. 调用pc.show(),打印计算机的信息
  -------------------附加需求----------------------
- 8.CPU和HardDisk中添加model属性，String类型，描述CPU和硬盘的品牌名称
- 9.为两个类的model属性添加get/set方法
- 10.完善CPU和HardDisk的构造函数
+ 8. CPU和HardDisk中添加model属性，String类型，描述CPU和硬盘的品牌名称
+ 9. 为两个类的model属性添加get/set方法
+ 10. 完善CPU和HardDisk的构造函数
 ## 三、核心方法
  	/**
 	 * show方法，用于打印计算机的信息，包括磁盘容量和CPU的运行速度
